@@ -62,11 +62,15 @@ header {
 	flex-flow: row wrap;
 }
 
+
+
 header h1 {
 	
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 2px solid #77a466;
 }
+
 header h1 span {
 	color: #77a466;
 }
@@ -83,8 +87,12 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+	padding: 10px 10px;
+	
+	list-style-type: none;
+
+	
+
 }
 header nav ul li a{
 	text-decoration: none;
@@ -128,11 +136,15 @@ header nav ul li a{
 	width: 90%;
 	flex-flow: row wrap;
 	border-top: 1px solid #eee;
+	justify-content: flex-start;
+	align-items: center;
+
 
 }
 
 .section-one h3 {
 	padding: 10px 0;
+	
 }
 
 .section-two {
@@ -142,7 +154,7 @@ header nav ul li a{
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding:  10px 30px;
 }
 
 .menu {
@@ -183,7 +195,11 @@ footer span {
 	font-size: 0.875em;
 }
 
+
+
+
 @media all and (min-width: 768px) {
+
 	.bottom-section {
 		display: flex;
 		justify-content: center;
@@ -200,6 +216,7 @@ footer span {
 		align-items: center;
 		width: 30%;
 		flex-flow: row wrap;
+
 
 	}
 
@@ -222,7 +239,19 @@ footer span {
 		flex-flow: row wrap;
 	}
 
+	header nav ul li {
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+	}
+	
+
 }
+
+
+
+
+
 
 @media all and (min-width: 1200px) {
 
